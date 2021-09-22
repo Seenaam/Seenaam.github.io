@@ -1,6 +1,20 @@
 body {
     margin: 50;
-    background: rgb(87, 248, 87);
     text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    background: rgb(221, 221, 221);
+
+}
+
+div.my_name{
+    padding-left: 10;
+    padding-right: 10;
+    background: rgb(0, 127, 212);
+    box-shadow: 10px 19px 20px rgba(0,0,0,0.30), 10px 15px 12px rgba(0,0,0,0.22);
+}
+
+div.the_content{
+    margin-left: 100;
+    margin-right: 100;
+    background: rgb(136, 207, 255);
+    box-shadow: 10px 19px 20px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
