@@ -1,5 +1,6 @@
 body {
-    margin: 0;
-    background: turquoise;
+    margin: 50;
+    background: rgb(87, 248, 87);
     text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
 }
