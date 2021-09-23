@@ -1,11 +1,29 @@
 body {
-    background-image: url("https://raw.githubusercontent.com/Seenaam/Seenaam.github.io/main/2.jpg");
+    background-image: url("C:/Users/seenaa/Desktop/seenaam/images/2.jpg");
     background-repeat: repeat;
     background-size: 400px;
+    font-family: "Brush Script MT", cursive;
+}
+
+#my_image{
+    align-items: center;
+    /* margin-top: 9px; */
+    box-shadow: rgba(0, 0, 0, 0.45) 9px 25px 20px -20px;
+}
+
+#sidebar{
+    float: left;
+    width: 14%; 
+    text-align: center;
+    /* backdrop-filter: blur(10px); */
+    background-color: cornsilk;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 div.back_div{
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
+    background-color: cornsilk;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
@@ -16,8 +34,8 @@ div.back_div{
 
 div.title{ 
     margin: auto;
-    border-radius: 5% 5% 0% 0%;
-    backdrop-filter: blur(100px);
+    border-radius: 2% 2% 0% 0%;
+    /* backdrop-filter: blur(100px); */
     padding: 5px;
     height: 100px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 35px 20px -20px;
@@ -27,7 +45,7 @@ div.title{
 div.the_content{
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    padding: 10px;
+    padding: 1px;
     box-sizing: border-box;
 }
 
@@ -39,18 +57,10 @@ div.contact{
     padding: 10px;
     border-radius: 2%;
     box-sizing: border-box;
-    backdrop-filter: blur(15px);
+    /* backdrop-filter: blur(15px); */
+    background-color: cornsilk;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    /* backdrop-filter: brightness(60%);
-    backdrop-filter: contrast(40%);
-    backdrop-filter: drop-shadow(4px 4px 10px blue);
-    backdrop-filter: grayscale(30%);
-    backdrop-filter: hue-rotate(120deg);
-    backdrop-filter: invert(70%);
-    backdrop-filter: opacity(20%);
-    backdrop-filter: sepia(90%);
-    backdrop-filter: saturate(80%); */
 }
 
 
-/* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+
