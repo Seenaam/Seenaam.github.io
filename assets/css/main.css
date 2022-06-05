@@ -1765,6 +1765,13 @@ input, select, textarea {
 				height: 48px;
 			}
 
+		.image.myProfile {
+			width: 150px;
+			height: 150px;
+			overflow: hidden;
+			border-radius: 10%;
+		}
+
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -2271,6 +2278,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 17pt;
+				backdrop-filter: blur(50px);
 			}
 
 		/* Header */
@@ -2320,7 +2328,8 @@ input, select, textarea {
 			}
 
 			.container {
-				padding: 0 2em 0 2em;
+				padding: 0px 0px 0px 0px;
+				/* backdrop-filter: blur(50px); */
 			}
 
 		/* Icons */
